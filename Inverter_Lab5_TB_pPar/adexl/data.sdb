@@ -1,0 +1,1929 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>Inverter_Lab5_TB_pPar</value>
+					</option>
+					<option>lib
+						<value>DigitalLab_StartingLayout</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>Inverter_Lab5_TB_pPar</value>
+					</option>
+					<option>lib
+						<value>DigitalLab_StartingLayout</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var enabled="1">beta
+				<value>2:2:10</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">C
+				<value>1p</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">Vdd
+				<value>1.8</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Vin_Delay
+				<value>1f</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Vin_FT
+				<value>10p</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Vin_High
+				<value>Vdd</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Vin_Low
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Vin_Period
+				<value>100n</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Vin_RT
+				<value>10p</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">W
+				<value>2</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">W1
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">vdc
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.11
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.11</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>beta
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 11:33:13 2022</timestamp>
+			<uuid>{6407e57f-e5c9-4762-aa24-8e93ea54eb9e}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.11.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.11.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_113314067</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.11</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.11</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.11.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.11.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.12
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.12</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>beta
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 11:45:46 2022</timestamp>
+			<uuid>{272728a5-bc8b-46ae-85b1-842e814dbe77}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.12.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.12.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_114547418</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.12</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.12</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.12.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.12.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.13
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.13</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>beta
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 11:46:43 2022</timestamp>
+			<uuid>{3020cdec-f0c0-461b-a1e3-41da4c2709f9}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.13.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.13.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_114644656</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.13</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.13</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.13.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.13.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.14
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.14</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>beta
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 11:48:39 2022</timestamp>
+			<uuid>{aba3e452-5330-4e64-9e9f-9f50e15ccbff}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.14.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.14.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_114840047</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.14</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.14</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.14.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.14.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.15
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.15</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>beta
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 11:51:27 2022</timestamp>
+			<uuid>{4d40d2c7-cf9b-4ba6-b0c6-ba5dfa95c9d4}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.15.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.15.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_115128615</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.15</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.15</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.15.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.15.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.16
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.16</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>beta
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>1:1:4</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 11:54:09 2022</timestamp>
+			<uuid>{ff25abb0-5cd7-45e3-aab4-b83864eafbdc}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.16.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.16.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_115410150</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.16</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.16</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.16.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.16.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>W1
+						<value>1:1:4</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.17
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.17</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>(cross(VT("/OUT") (0.5 * VAR("Vdd")) 1 "falling" nil nil) - cross(VT("/IN") (0.5 * VAR("Vdd")) 1 "rising" nil nil))
+								<evalType>point</evalType>
+							</output>
+							<output>tplh
+								<evalType>point</evalType>
+							</output>
+							<output>tp
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>beta
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>1:1:4</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 12:08:09 2022</timestamp>
+			<uuid>{dc8e2874-9c92-4841-86a2-d9d29c7d0a34}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.17.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.17.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_120810270</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.17</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.17</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.17.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.17.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>W1
+						<value>1:1:4</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.18
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.18</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>(cross(VT("/OUT") (0.5 * VAR("Vdd")) 1 "falling" nil nil) - cross(VT("/IN") (0.5 * VAR("Vdd")) 1 "rising" nil nil))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>beta
+						<value>2:2:10</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 12:12:28 2022</timestamp>
+			<uuid>{d886692b-7fe7-4c9d-b541-e8ebeb40445e}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.18.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.18.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_121229177</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.18</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.18</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.18.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.18.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>beta
+						<value>1</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.19
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.19</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>(cross(VT("/OUT") (0.5 * VAR("Vdd")) 1 "falling" nil nil) - cross(VT("/IN") (0.5 * VAR("Vdd")) 1 "rising" nil nil))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>beta
+						<value>2:2:10</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 12:17:54 2022</timestamp>
+			<uuid>{346b63a6-8acd-4b5d-9955-1800fb75b867}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.19.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.19.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_121755332</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.19</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.19</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.19.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.19.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>beta
+						<value>2:2:10</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.20
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1_none_Interactive.20</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Inverter_Lab5_TB_pPar</value>
+							</option>
+							<option>lib
+								<value>DigitalLab_StartingLayout</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">beta
+						<value>2:2:10</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">C
+						<value>1p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">Vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vin_Delay
+						<value>1f</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vin_FT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vin_High
+						<value>Vdd</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vin_Low
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vin_Period
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vin_RT
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">W1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vdc
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Dec 4 12:22:40 2022</timestamp>
+			<uuid>{398c2589-6ca5-4432-9460-8150d39cdf31}</uuid>
+			<resultsname>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.20.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.20.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/local/ip-10-0-207-177.eu-central-1.compute.internal_yuvmog67_122241975</localpsfdir>
+			<psfdir>/data/project/tower/users/yuvmog67/ws/simulation/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.20</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.20</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5_TB_pPar/adexl/results/data/Interactive.20.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.20.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>beta
+						<value>2:2:10</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

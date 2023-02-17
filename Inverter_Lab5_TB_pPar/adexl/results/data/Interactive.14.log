@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Dec  4 11:48:43 2022 
+Best design point: 1
+Design specs: 
+	DigitalLab_StartingLayout:Inverter_Lab5_TB_pPar:1	corner	Nominal - 
+Design parameters: 
+	beta		1
+	C		1p
+	Vdd		1.8
+	Vin_Delay		1f
+	Vin_FT		10p
+	Vin_High		1.8
+	Vin_Low		0
+	Vin_Period		100n
+	Vin_RT		10p
+
+Interactive.14
+Number of points completed: 1
+Number of simulation errors: 1
+Interactive.14 completed. 
+Current time: Sun Dec  4 11:49:02 2022 

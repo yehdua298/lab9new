@@ -1,0 +1,64 @@
+#
+# OPTION COMMAND FILE created by Cadence Quantus Extraction Version 21.1.1-s329 from CCL
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "GND"
+distributed_processing \
+	 -multi_cpu 1
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -array_vias_spacing "auto" \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -net_name_space "LAYOUT"
+filter_cap \
+	 -exclude_floating_nets true \
+	 -exclude_floating_nets_limit 50000
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type pvs \
+	 -design_cell_name "Inverter_Lab5 layout DigitalLab_StartingLayout" \
+	 -directory_name "/data/project/tower/users/yuvmog67/ws/PVS_RESULTS/LVS/Inverter_Lab5/svdb" \
+	 -format "DFII" \
+	 -run_name "Inverter_Lab5"
+log_file \
+	 -file_name "/data/project/tower/users/yuvmog67/ws/PVS_RESULTS/LVS/Inverter_Lab5/svdb/qrc.Inverter_Lab5.log"
+output_db -type extracted_view \
+	 -add_explicit_vias true \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -cdl_out_map_directory \
+		"/data/project/tower/users/yuvmog67/ws/PVS_RESULTS/LVS/Inverter_Lab5" \
+	 -device_finger_delimiter "@" \
+	 -enable_cellview_check false \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -include_parasitic_res_width true \
+	 -include_res_model "false" \
+	 -res_component "presistor" \
+	 -res_property_name "r" \
+	 -transfer_net_expression true \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/tmp/qrc_5903" \
+	 -temporary_directory_name "Inverter_Lab5"
+process_technology \
+	 -technology_corner \
+		"QRC_FSG" \
+	 -technology_library_file "/data/project/tower/users/yuvmog67/ws/pvtech.lib" \
+	 -technology_name "ts18sl_6M1L" \
+	 -temperature \
+		25.0
+substrate_connection \
+	 -remove_contact layers none nets none \
+	 -substrate_stamping_off true
+
+

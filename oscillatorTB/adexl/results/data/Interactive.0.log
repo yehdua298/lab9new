@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Jan 15 08:26:57 2023 
+Best design point: 1
+Design specs: 
+	DigitalLab_StartingLayout:oscillatorTB:1	corner	Nominal - 
+Design parameters: 
+	beta		2
+	VDD		1.8
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 1
+Interactive.0 completed. 
+Current time: Sun Jan 15 08:27:08 2023 

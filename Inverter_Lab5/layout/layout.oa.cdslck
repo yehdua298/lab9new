@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      yuvmog67
+HostName                       ip-10-0-232-124.eu-central-1.compute.internal
+ProcessIdentifier              6048
+ProcessCreationTime_UTC        1673771297
+ProcessCreationTime_Readable   Sun Jan 15 08:28:17 2023 UTC
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /data/project/tower/users/yuvmog67/ws/DigitalLab_StartingLayout/Inverter_Lab5/layout/layout.oa.cdslck
+TimeEditLocked                 Sun Jan 15 08:45:30 2023 UTC
